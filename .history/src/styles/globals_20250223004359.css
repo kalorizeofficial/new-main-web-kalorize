@@ -1,0 +1,25 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Make 1rem = 10px for easier calculation */
+  font-size: 62.5%;
+}
+
+body {
+  /* Reset font size to 16px */
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent font scaling in landscape */
+@media screen and (orientation: landscape) {
+  html {
+    -webkit-text-size-adjust: none;
+  }
+}
