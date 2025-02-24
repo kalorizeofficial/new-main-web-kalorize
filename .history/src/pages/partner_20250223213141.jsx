@@ -24,15 +24,16 @@ const Partner = () => {
 
   const DecorativeCircle = ({ className }) => (
     <div
-      className={`absolute w-3 h-3 rounded-full bg-[#2A85FF] opacity-100 ${className}`}
+      className={`absolute w-6 h-6 rounded-full bg-[#2A85FF] opacity-50 ${className}`}
     />
   );
 
   return (
-    <section className="pt-[164px] pb-8 px-4 relative">
+    <section className="pt-[164px] pb-20 px-4 relative">
       {/* Decorative circles with custom positioning */}
-      <DecorativeCircle className="top-80 left-72" />
-      <DecorativeCircle className="bottom-8 right-72" />
+      <DecorativeCircle className="top-40 left-20" />
+      <DecorativeCircle className="bottom-20 right-32" />
+      <DecorativeCircle className="top-60 right-20" />
 
       <h2 className="text-[24px] font-inter font-extrabold leading-[100%] text-center text-[#565656] mb-12">
         Partner Kami

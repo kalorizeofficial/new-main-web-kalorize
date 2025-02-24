@@ -11,20 +11,22 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#F8F8F8] py-16">
-      <div className="max-w-5xl mx-auto px-18">
-        <div className="grid grid-cols-10 gap-20">
+    <footer className="bg-[#F8F8F8] py-8 md:py-16">
+      <div className="max-w-5xl mx-auto px-4 md:px-18">
+        <div className="grid grid-cols-1 md:grid-cols-10 gap-8 md:gap-20">
           {/* Logo and Description */}
-          <div className="col-span-4">
-            <h2 className="text-[#F94917] text-2xl font-bold mb-4">KALORIZE</h2>
-            <p className="text-gray-600 mb-8">
+          <div className="col-span-1 md:col-span-4">
+            <h2 className="text-[#F94917] text-xl md:text-2xl font-bold mb-4">
+              KALORIZE
+            </h2>
+            <p className="text-gray-600 mb-6 md:mb-8 text-sm md:text-base">
               Kalorize adalah platform rekomendasi makanan yang menyediakan
               solusi makanan sesuai dengan kebutuhan dan preferensi gizi
               pengguna.
             </p>
 
-            <div className="mb-8">
-              <p className="text-gray-600 text-sm leading-relaxed">
+            <div className="mb-6 md:mb-8">
+              <p className="text-gray-600 text-xs md:text-sm leading-relaxed">
                 Bandung Techno Park, Gedung D, Lt. 2
                 <br />
                 Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten
@@ -34,7 +36,7 @@ const Footer = () => {
             </div>
 
             {/* Social Media Links */}
-            <div className="flex gap-4">
+            <div className="flex gap-3 md:gap-4 flex-wrap">
               {socialLinks.map((social, index) => (
                 <a
                   key={index}
@@ -48,10 +50,10 @@ const Footer = () => {
           </div>
 
           {/* Right Navigation Links */}
-          <div className="col-span-6 pl-36">
-            <div className="grid grid-cols-2 gap-x-0">
+          <div className="col-span-1 md:col-span-6 md:pl-36">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-x-0">
               {/* Left Column - Makanan & Bermitra */}
-              <div className="space-y-8">
+              <div className="space-y-6 md:space-y-8">
                 {/* Makanan Section */}
                 <div>
                   <h2 className="text-[15px] font-inter font-extrabold text-gray-900 mb-3">
@@ -120,7 +122,7 @@ const Footer = () => {
               </div>
 
               {/* Right Column - Produk, Tentang Kami, & Lainnya */}
-              <div className="space-y-8">
+              <div className="space-y-6 md:space-y-8">
                 {/* Produk Section */}
                 <div>
                   <h2 className="text-[15px] font-extrabold text-gray-900 mb-3">
@@ -201,7 +203,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-gray-500 text-sm pt-8">
+        <p className="text-gray-500 text-xs md:text-sm pt-8 text-center md:text-left">
           © Copyright 2025 PT Pilihan Rekomendasi Unggul
         </p>
       </div>
