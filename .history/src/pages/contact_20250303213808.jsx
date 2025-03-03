@@ -3,8 +3,8 @@ import React from "react";
 function Contact() {
   return (
     <section className="py-4 pb-12 md:py-16 bg-white">
-      <div className="container mx-auto px-0 md:px-4">
-        <section className="max-w-5xl mx-auto bg-[#FFF7F2] rounded-2xl px-0 md:px-8 py-8 md:py-8 mb-4 md:mb-16 overflow-hidden">
+      <div className="container mx-auto px-4">
+        <section className="max-w-5xl mx-auto bg-[#FFF7F2] rounded-2xl px-4 md:px-8 py-8 md:py-8 mb-4 md:mb-16 overflow-hidden">
           <div className="max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row items-center justify-center md:gap-16 pt-8 md:pt-0">
               {/* Left side - Stacked images */}

@@ -61,7 +61,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#F8F8F8] py-8 lg:py-16">
-      <div className="max-w-5xl mx-auto px-4 lg:px-18">
+      <div className="max-w-5xl mx-auto px-0 lg:px-18">
         {/* Mobile Layout */}
         <div className="lg:hidden px-0">
           <h1 className="text-2xl font-bold text-[#F94917] mb-2">KALORIZE</h1>
