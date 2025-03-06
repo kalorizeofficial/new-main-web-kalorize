@@ -39,7 +39,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="py-8 md:py-16 bg-white">
+    <section className="py-8 md:py-16 bg-[#FFF7F2]">
       <div className="md:px-4 px-0 mx-auto max-w-7xl">
         <section className="max-w-5xl mx-auto bg-[#FFF7F2] rounded-2xl py-6 md:py-8">
           <div className="max-w-4xl mx-auto">

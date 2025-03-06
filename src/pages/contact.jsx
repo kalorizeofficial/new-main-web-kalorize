@@ -2,11 +2,11 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="py-4 pb-12 md:py-16 bg-white">
+    <section className="py-4 pb-12 md:py-0 bg-[#FFF7F2]">
       <div className="container mx-auto px-0 md:px-4">
         <section className="max-w-5xl mx-auto bg-[#FFF7F2] rounded-2xl px-0 md:px-8 py-8 md:py-8 mb-4 md:mb-16 overflow-hidden">
           <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center justify-center md:gap-16 pt-8 md:pt-0">
+            <div className="flex flex-col md:flex-row items-center justify-center md:gap-40 pt-8 md:pt-0">
               {/* Left side - Stacked images */}
               <div className="relative -mb-0 md:-mb-24 scale-100 md:scale-100 -mt-4 md:mt-0">
                 {/* Circle background */}
@@ -22,10 +22,10 @@ function Contact() {
 
               {/* Right side - Content */}
               <div
-                className="flex flex-col space-y-6 md:space-y-6 max-w-[400px] md:max-w-[400px] text-left md:text-left -mt-10 md:mt-0
+                className="flex flex-col space-y-6 md:space-y-6 max-w-[400px] md:max-w-[500px] text-left md:text-left -mt-10 md:mt-0
                             md:bg-transparent bg-[#FFF7F2] rounded-lg px-2 py-4 md:p-4 relative z-10"
               >
-                <h1 className="text-[32px] md:text-2xl font-extrabold text-[#413D66] leading-[1.4] font-inter">
+                <h1 className="text-[32px] md:text-3xl font-extrabold text-[#413D66] leading-[1.4] font-inter">
                   Penuhi Kebutuhan Gizi Kamu dengan Kalorize
                 </h1>
                 <p className="text-[24px] md:text-sm font-bold text-[#F94917] leading-normal font-inter">

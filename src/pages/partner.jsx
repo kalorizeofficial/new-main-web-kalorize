@@ -14,11 +14,11 @@ const Partner = () => {
   );
 
   return (
-    <section className="pt-[100px] md:pt-[164px] pb-8 relative">
+    <section className="pt-[100px] md:pt-[164px] pb-24 relative">
       <div className="px-4 mx-auto max-w-7xl">
         {/* Decorative circles - hidden on mobile */}
         <DecorativeCircle className="hidden md:block top-80 left-72" />
-        <DecorativeCircle className="hidden md:block bottom-8 right-72" />
+        <DecorativeCircle className="hidden md:block bottom-40 right-72" />
 
         <h2 className="text-[20px] md:text-[24px] font-inter font-extrabold leading-[100%] text-center text-[#565656] mb-8 md:mb-12">
           Partner Kami
